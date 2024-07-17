@@ -7,6 +7,7 @@ dataset:
   path: "datasets"
   img_size: 224
   img_channels: 3
+  num_classes: 10
 
 model:
   embedding_dimension: 128
@@ -22,3 +23,5 @@ attention:
 transformer:
   ffn_hidden_dimension: 256
   drop_rate: 0.1
+  n_layers: 7
+
