@@ -6,3 +6,10 @@ dataset:
   name: "cifar10"
   path: "datasets"
   img_size: 224
+  img_channels: 3
+
+model:
+  embedding_dimension: 128
+  patch_embedding_drop_rate: 0.1
+  patch_height: 16
+  patch_width: 16
