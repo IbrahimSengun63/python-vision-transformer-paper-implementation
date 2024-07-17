@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import torchvision.transforms as transforms
 from torch.utils.data import DataLoader, Dataset
 from datasets import load_dataset, DatasetDict
-
+import torch
 
 # Custom dataset class for CIFAR-10
 class CIFAR10CustomDataset(Dataset):
@@ -18,7 +18,8 @@ class CIFAR10CustomDataset(Dataset):
     def __getitem__(self, idx):
         # Retrieve image and label from dataset
         image = self.dataset[idx]['img']
-        label = self.dataset[idx]['label']
+
+        label = torch.tensor(self.dataset[idx]['label']).long()
 
         # Apply transformations if specified
         if self.transform:
