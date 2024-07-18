@@ -71,7 +71,7 @@ class DatasetLoader:
         test_dataset = CIFAR10CustomDataset(cifar10_dataset['test'], transform=transform)
 
         num_samples_per_class = self.config['loader'].get('num_samples_per_class')
-        if num_samples_per_class is not None:
+        if num_samples_per_class is not None and num_samples_per_class != 'None':
             train_dataset = self.get_balanced_subset(train_dataset, num_samples_per_class)
 
         return train_dataset, test_dataset

@@ -1,5 +1,5 @@
 loader:
-  num_samples_per_class: 100
+  num_samples_per_class: None
   batch_size: 32
 
 dataset:
@@ -27,3 +27,5 @@ transformer:
 
 train:
   verbose: False
+  epoch: 100
+  lr: 0.001

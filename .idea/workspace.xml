@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4cc1870-d8da-4fc0-8627-8990471e8582" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/attention.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/attention.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/patch_embedding.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/patch_embedding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transformer/transformer.py" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/transformer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transformer/transformer_layer.py" beforeDir="false" afterPath="$PROJECT_DIR$/transformer/transformer_layer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/prepare_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/prepare_data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
