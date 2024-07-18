@@ -1,5 +1,5 @@
 loader:
-  num_samples_per_class: 200
+  num_samples_per_class: 100
   batch_size: 32
 
 dataset:
@@ -12,8 +12,8 @@ dataset:
 model:
   embedding_dimension: 128
   patch_embedding_drop_rate: 0.1
-  patch_height: 16
-  patch_width: 16
+  patch_height: 14
+  patch_width: 14
 
 attention:
   n_heads: 8
